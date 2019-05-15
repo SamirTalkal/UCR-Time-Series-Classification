@@ -34,7 +34,7 @@ def class_algo(traindata,trainlabel,classobj):
     count+=1
     for j in range(1,len(trainlabel)):
         compare_the_obj = traindata[j,:]
-        dist = np.sqrt(np.sum((np.array(compare_the_obj)-np.array(classobj))**2))
+        dist = np.sqrt(np.sum((np.array(compare_the_obj)-np.array(classobj))**2)) #Euclidean distance formula
         if dist < best_case:
             predicted_class = trainlabel[j]
         best_case = dist

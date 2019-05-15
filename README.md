@@ -1,4 +1,4 @@
-# UCR-Time-Series-Classification-
+# UCR-Time-Series-Classification
 Python
 
 Upload your Train dataset and test dataset at the respected places in csv format.
